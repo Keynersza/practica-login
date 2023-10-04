@@ -8,8 +8,9 @@ export const Create = () => {
  const [email, setEmail] = useState("")
  const [password, setPassword] = useState("")
  const [getEmail, setGetEmail] = useState([])
+ const [getEmails, setGetEmails] = useState([])
 
-const navigate = useNavigate()
+ const navigate = useNavigate()
 
  const registro = async (e) => {
   e.preventDefault()
@@ -36,7 +37,7 @@ const navigate = useNavigate()
     if (resAdd) {
      alert('Usuario creado')
     }
-    
+
    }
   }
  }
