@@ -8,7 +8,7 @@ export const Create = () => {
  const [email, setEmail] = useState("")
  const [password, setPassword] = useState("")
  const [getEmail, setGetEmail] = useState([])
- const [getEmails, setGetEmails] = useState([])
+ const [getEmailss, setGetEmailss] = useState([])
 
  const navigate = useNavigate()
 
